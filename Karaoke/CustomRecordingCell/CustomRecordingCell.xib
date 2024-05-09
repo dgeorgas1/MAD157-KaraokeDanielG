@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomRecordingCell" customModule="Karaoke" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O0Y-OH-01c">
+                    <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <items>
+                        <barButtonItem title="File Name" width="133.66666666666669" id="3yd-59-T0o">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <barButtonItem width="49" style="plain" systemItem="fixedSpace" id="raB-u9-V9M"/>
+                        <barButtonItem title="0:00" id="gWc-jf-rmP">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <barButtonItem title="Play" id="gLl-52-uvY">
+                            <imageReference key="image" image="play.fill" catalog="system" symbolScale="large"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="playRecording:" destination="iN0-l3-epB" id="aON-AB-NfB"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Download" id="9qQ-q6-DMd">
+                            <imageReference key="image" image="arrow.down.doc.fill" catalog="system" symbolScale="large"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="downloadRecording:" destination="iN0-l3-epB" id="BIe-AL-ZGc"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Delete" id="0OJ-zC-sa8">
+                            <imageReference key="image" image="trash.fill" catalog="system" symbolScale="large"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="deleteRecording:" destination="iN0-l3-epB" id="wXk-u0-c5k"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="O0Y-OH-01c" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="PSV-M5-NsD"/>
+                <constraint firstItem="O0Y-OH-01c" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gn0-Mx-1Eg"/>
+                <constraint firstItem="O0Y-OH-01c" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="vAG-4O-xY9"/>
+            </constraints>
+            <connections>
+                <outlet property="fileName" destination="3yd-59-T0o" id="C7b-NP-YhV"/>
+                <outlet property="playRecordingTimer" destination="gWc-jf-rmP" id="3At-kX-VmB"/>
+            </connections>
+            <point key="canvasLocation" x="104.58015267175573" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow.down.doc.fill" catalog="system" width="115" height="128"/>
+        <image name="play.fill" catalog="system" width="117" height="128"/>
+        <image name="trash.fill" catalog="system" width="119" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

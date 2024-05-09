@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomCell" customModule="Karaoke" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G5d-C0-iLW">
+                    <rect key="frame" x="16" y="67" width="85" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="85" id="VP0-WD-0hl"/>
+                        <constraint firstAttribute="width" constant="85" id="Wpd-Pl-dQM"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRC-O3-uup">
+                    <rect key="frame" x="109" y="81" width="268" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJT-ia-Tsd">
+                    <rect key="frame" x="109" y="116" width="268" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="G5d-C0-iLW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="8Eh-ka-OFg"/>
+                <constraint firstItem="zRC-O3-uup" firstAttribute="trailing" secondItem="zJT-ia-Tsd" secondAttribute="trailing" id="DPw-aN-xpi"/>
+                <constraint firstItem="G5d-C0-iLW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="Ey2-13-yvq"/>
+                <constraint firstItem="zRC-O3-uup" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="NUn-qn-86X"/>
+                <constraint firstItem="zRC-O3-uup" firstAttribute="leading" secondItem="G5d-C0-iLW" secondAttribute="trailing" constant="8" symbolic="YES" id="RUa-9P-Mie"/>
+                <constraint firstItem="zRC-O3-uup" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="22" id="SvC-Sn-Xk6"/>
+                <constraint firstItem="zJT-ia-Tsd" firstAttribute="top" secondItem="zRC-O3-uup" secondAttribute="bottom" constant="14" id="g4T-s3-dIL"/>
+                <constraint firstItem="zRC-O3-uup" firstAttribute="leading" secondItem="zJT-ia-Tsd" secondAttribute="leading" id="yXn-Lb-R7g"/>
+            </constraints>
+            <connections>
+                <outlet property="albumCover" destination="G5d-C0-iLW" id="IQf-4R-4Gr"/>
+                <outlet property="artistName" destination="zJT-ia-Tsd" id="JMy-Dg-2X0"/>
+                <outlet property="songName" destination="zRC-O3-uup" id="J0c-42-eHX"/>
+            </connections>
+            <point key="canvasLocation" x="78.625954198473281" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

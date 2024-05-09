@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2647182BE6E278005D4817 /* CustomRecordingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2647172BE6E278005D4817 /* CustomRecordingCell.xib */; };
+		3F26471A2BE6E2A0005D4817 /* CustomRecordingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2647192BE6E2A0005D4817 /* CustomRecordingCell.swift */; };
+		3F3331372BB912040069CD36 /* theory-rx-medicate-official-video-128-ytshorts.savetube.me-Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3331362BB912040069CD36 /* theory-rx-medicate-official-video-128-ytshorts.savetube.me-Music.mp3 */; };
+		3F40BF352BB8B03200056415 /* SelectedSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40BF342BB8B03200056415 /* SelectedSongViewController.swift */; };
+		3F40BF372BB8EBDA00056415 /* SongStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40BF362BB8EBDA00056415 /* SongStructure.swift */; };
 		3FA84D702BA60F3500BF9DD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84D6F2BA60F3500BF9DD5 /* AppDelegate.swift */; };
 		3FA84D722BA60F3500BF9DD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84D712BA60F3500BF9DD5 /* SceneDelegate.swift */; };
 		3FA84D742BA60F3500BF9DD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84D732BA60F3500BF9DD5 /* ViewController.swift */; };
@@ -17,6 +22,21 @@
 		3FA84D8A2BA60F3700BF9DD5 /* KaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84D892BA60F3700BF9DD5 /* KaraokeTests.swift */; };
 		3FA84D942BA60F3700BF9DD5 /* KaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84D932BA60F3700BF9DD5 /* KaraokeUITests.swift */; };
 		3FA84D962BA60F3700BF9DD5 /* KaraokeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84D952BA60F3700BF9DD5 /* KaraokeUITestsLaunchTests.swift */; };
+		3FA84DA92BA63A5500BF9DD5 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84DA72BA63A5000BF9DD5 /* FavoritesViewController.swift */; };
+		3FA84DAC2BA63AD300BF9DD5 /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84DAA2BA63ACF00BF9DD5 /* RecordingsViewController.swift */; };
+		3FA84DAF2BA63B1800BF9DD5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84DAD2BA63B1500BF9DD5 /* SettingsViewController.swift */; };
+		3FABCC292BB861C900248CB1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABCC282BB861C900248CB1 /* CustomCell.swift */; };
+		3FABCC2C2BB8728A00248CB1 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FABCC2B2BB8728A00248CB1 /* CustomCell.xib */; };
+		3FD11A542BB9B3D500FC94FA /* drowning-pool-bodies-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD11A532BB9B3D500FC94FA /* drowning-pool-bodies-128-ytshorts.savetube.me_Instrumental.mp3 */; };
+		3FD11A562BB9B53B00FC94FA /* shinedown-dead-don-t-die-official-video-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD11A552BB9B53B00FC94FA /* shinedown-dead-don-t-die-official-video-128-ytshorts.savetube.me_Instrumental.mp3 */; };
+		3FD11A582BB9B67C00FC94FA /* bad-wolves-zombie-official-video-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD11A572BB9B67C00FC94FA /* bad-wolves-zombie-official-video-128-ytshorts.savetube.me_Instrumental.mp3 */; };
+		3FD11A5A2BB9B76E00FC94FA /* three-days-grace-animal-i-have-become-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD11A592BB9B76E00FC94FA /* three-days-grace-animal-i-have-become-128-ytshorts.savetube.me_Instrumental.mp3 */; };
+		3FD11A5C2BB9B85000FC94FA /* five-finger-death-punch-the-pride-official-audio-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD11A5B2BB9B85000FC94FA /* five-finger-death-punch-the-pride-official-audio-128-ytshorts.savetube.me_Instrumental.mp3 */; };
+		3FE6D5B32BA64C3800B8AC76 /* DrawerPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6D5B22BA64C3800B8AC76 /* DrawerPresentationController.swift */; };
+		3FE6D5B52BA64C4400B8AC76 /* DrawerSlideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6D5B42BA64C4400B8AC76 /* DrawerSlideAnimation.swift */; };
+		3FE6D5B72BA64C4C00B8AC76 /* DrawerTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6D5B62BA64C4C00B8AC76 /* DrawerTransitionManager.swift */; };
+		3FE6D5B92BA64C5A00B8AC76 /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6D5B82BA64C5A00B8AC76 /* DrawerMenuViewController.swift */; };
+		3FE6D5BD2BA64F1700B8AC76 /* DrawerMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6D5BC2BA64F1700B8AC76 /* DrawerMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +57,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F2647172BE6E278005D4817 /* CustomRecordingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomRecordingCell.xib; sourceTree = "<group>"; };
+		3F2647192BE6E2A0005D4817 /* CustomRecordingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRecordingCell.swift; sourceTree = "<group>"; };
+		3F3331362BB912040069CD36 /* theory-rx-medicate-official-video-128-ytshorts.savetube.me-Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "theory-rx-medicate-official-video-128-ytshorts.savetube.me-Music.mp3"; sourceTree = "<group>"; };
+		3F40BF342BB8B03200056415 /* SelectedSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedSongViewController.swift; sourceTree = "<group>"; };
+		3F40BF362BB8EBDA00056415 /* SongStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongStructure.swift; sourceTree = "<group>"; };
 		3FA84D6C2BA60F3500BF9DD5 /* Karaoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA84D6F2BA60F3500BF9DD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA84D712BA60F3500BF9DD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +76,21 @@
 		3FA84D8F2BA60F3700BF9DD5 /* KaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA84D932BA60F3700BF9DD5 /* KaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeUITests.swift; sourceTree = "<group>"; };
 		3FA84D952BA60F3700BF9DD5 /* KaraokeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FA84DA72BA63A5000BF9DD5 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesViewController.swift; path = Karaoke/ViewControllers/FavoritesViewController.swift; sourceTree = SOURCE_ROOT; };
+		3FA84DAA2BA63ACF00BF9DD5 /* RecordingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
+		3FA84DAD2BA63B1500BF9DD5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3FABCC282BB861C900248CB1 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3FABCC2B2BB8728A00248CB1 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		3FD11A532BB9B3D500FC94FA /* drowning-pool-bodies-128-ytshorts.savetube.me_Instrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "drowning-pool-bodies-128-ytshorts.savetube.me_Instrumental.mp3"; sourceTree = "<group>"; };
+		3FD11A552BB9B53B00FC94FA /* shinedown-dead-don-t-die-official-video-128-ytshorts.savetube.me_Instrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shinedown-dead-don-t-die-official-video-128-ytshorts.savetube.me_Instrumental.mp3"; sourceTree = "<group>"; };
+		3FD11A572BB9B67C00FC94FA /* bad-wolves-zombie-official-video-128-ytshorts.savetube.me_Instrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bad-wolves-zombie-official-video-128-ytshorts.savetube.me_Instrumental.mp3"; sourceTree = "<group>"; };
+		3FD11A592BB9B76E00FC94FA /* three-days-grace-animal-i-have-become-128-ytshorts.savetube.me_Instrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "three-days-grace-animal-i-have-become-128-ytshorts.savetube.me_Instrumental.mp3"; sourceTree = "<group>"; };
+		3FD11A5B2BB9B85000FC94FA /* five-finger-death-punch-the-pride-official-audio-128-ytshorts.savetube.me_Instrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "five-finger-death-punch-the-pride-official-audio-128-ytshorts.savetube.me_Instrumental.mp3"; sourceTree = "<group>"; };
+		3FE6D5B22BA64C3800B8AC76 /* DrawerPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerPresentationController.swift; sourceTree = "<group>"; };
+		3FE6D5B42BA64C4400B8AC76 /* DrawerSlideAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerSlideAnimation.swift; sourceTree = "<group>"; };
+		3FE6D5B62BA64C4C00B8AC76 /* DrawerTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerTransitionManager.swift; sourceTree = "<group>"; };
+		3FE6D5B82BA64C5A00B8AC76 /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
+		3FE6D5BC2BA64F1700B8AC76 /* DrawerMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +118,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2647162BE6E249005D4817 /* CustomRecordingCell */ = {
+			isa = PBXGroup;
+			children = (
+				3F2647172BE6E278005D4817 /* CustomRecordingCell.xib */,
+				3F2647192BE6E2A0005D4817 /* CustomRecordingCell.swift */,
+			);
+			path = CustomRecordingCell;
+			sourceTree = "<group>";
+		};
+		3F3331352BB911A50069CD36 /* SongsMusic */ = {
+			isa = PBXGroup;
+			children = (
+				3F3331362BB912040069CD36 /* theory-rx-medicate-official-video-128-ytshorts.savetube.me-Music.mp3 */,
+				3FD11A532BB9B3D500FC94FA /* drowning-pool-bodies-128-ytshorts.savetube.me_Instrumental.mp3 */,
+				3FD11A552BB9B53B00FC94FA /* shinedown-dead-don-t-die-official-video-128-ytshorts.savetube.me_Instrumental.mp3 */,
+				3FD11A572BB9B67C00FC94FA /* bad-wolves-zombie-official-video-128-ytshorts.savetube.me_Instrumental.mp3 */,
+				3FD11A592BB9B76E00FC94FA /* three-days-grace-animal-i-have-become-128-ytshorts.savetube.me_Instrumental.mp3 */,
+				3FD11A5B2BB9B85000FC94FA /* five-finger-death-punch-the-pride-official-audio-128-ytshorts.savetube.me_Instrumental.mp3 */,
+			);
+			path = SongsMusic;
+			sourceTree = "<group>";
+		};
 		3FA84D632BA60F3500BF9DD5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +163,14 @@
 		3FA84D6E2BA60F3500BF9DD5 /* Karaoke */ = {
 			isa = PBXGroup;
 			children = (
+				3F2647162BE6E249005D4817 /* CustomRecordingCell */,
+				3F40BF362BB8EBDA00056415 /* SongStructure.swift */,
+				3FABCC2A2BB8724D00248CB1 /* CustomCell */,
+				3FE6D5AF2BA64BC200B8AC76 /* DrawerMenu */,
+				3F3331352BB911A50069CD36 /* SongsMusic */,
+				3FA84DB02BA63B6000BF9DD5 /* ViewControllers */,
 				3FA84D6F2BA60F3500BF9DD5 /* AppDelegate.swift */,
 				3FA84D712BA60F3500BF9DD5 /* SceneDelegate.swift */,
-				3FA84D732BA60F3500BF9DD5 /* ViewController.swift */,
 				3FA84D752BA60F3500BF9DD5 /* Main.storyboard */,
 				3FA84D7B2BA60F3700BF9DD5 /* Assets.xcassets */,
 				3FA84D7D2BA60F3700BF9DD5 /* LaunchScreen.storyboard */,
@@ -128,6 +195,55 @@
 				3FA84D952BA60F3700BF9DD5 /* KaraokeUITestsLaunchTests.swift */,
 			);
 			path = KaraokeUITests;
+			sourceTree = "<group>";
+		};
+		3FA84DB02BA63B6000BF9DD5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FA84D732BA60F3500BF9DD5 /* ViewController.swift */,
+				3F40BF342BB8B03200056415 /* SelectedSongViewController.swift */,
+				3FA84DA72BA63A5000BF9DD5 /* FavoritesViewController.swift */,
+				3FA84DAA2BA63ACF00BF9DD5 /* RecordingsViewController.swift */,
+				3FA84DAD2BA63B1500BF9DD5 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3FABCC2A2BB8724D00248CB1 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				3FABCC282BB861C900248CB1 /* CustomCell.swift */,
+				3FABCC2B2BB8728A00248CB1 /* CustomCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		3FE6D5AF2BA64BC200B8AC76 /* DrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6D5B12BA64C0000B8AC76 /* DrawerTransitionManager */,
+				3FE6D5B02BA64BDC00B8AC76 /* DrawerMenuController */,
+			);
+			path = DrawerMenu;
+			sourceTree = "<group>";
+		};
+		3FE6D5B02BA64BDC00B8AC76 /* DrawerMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6D5B82BA64C5A00B8AC76 /* DrawerMenuViewController.swift */,
+				3FE6D5BC2BA64F1700B8AC76 /* DrawerMenuViewController.xib */,
+			);
+			path = DrawerMenuController;
+			sourceTree = "<group>";
+		};
+		3FE6D5B12BA64C0000B8AC76 /* DrawerTransitionManager */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6D5B22BA64C3800B8AC76 /* DrawerPresentationController.swift */,
+				3FE6D5B42BA64C4400B8AC76 /* DrawerSlideAnimation.swift */,
+				3FE6D5B62BA64C4C00B8AC76 /* DrawerTransitionManager.swift */,
+			);
+			path = DrawerTransitionManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +350,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FABCC2C2BB8728A00248CB1 /* CustomCell.xib in Resources */,
+				3FD11A5C2BB9B85000FC94FA /* five-finger-death-punch-the-pride-official-audio-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */,
+				3FD11A542BB9B3D500FC94FA /* drowning-pool-bodies-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */,
+				3F3331372BB912040069CD36 /* theory-rx-medicate-official-video-128-ytshorts.savetube.me-Music.mp3 in Resources */,
+				3FD11A582BB9B67C00FC94FA /* bad-wolves-zombie-official-video-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */,
 				3FA84D7F2BA60F3700BF9DD5 /* LaunchScreen.storyboard in Resources */,
+				3FD11A5A2BB9B76E00FC94FA /* three-days-grace-animal-i-have-become-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */,
+				3FD11A562BB9B53B00FC94FA /* shinedown-dead-don-t-die-official-video-128-ytshorts.savetube.me_Instrumental.mp3 in Resources */,
+				3F2647182BE6E278005D4817 /* CustomRecordingCell.xib in Resources */,
 				3FA84D7C2BA60F3700BF9DD5 /* Assets.xcassets in Resources */,
+				3FE6D5BD2BA64F1700B8AC76 /* DrawerMenuViewController.xib in Resources */,
 				3FA84D772BA60F3500BF9DD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +388,19 @@
 			files = (
 				3FA84D742BA60F3500BF9DD5 /* ViewController.swift in Sources */,
 				3FA84D702BA60F3500BF9DD5 /* AppDelegate.swift in Sources */,
+				3FE6D5B32BA64C3800B8AC76 /* DrawerPresentationController.swift in Sources */,
 				3FA84D7A2BA60F3500BF9DD5 /* Karaoke.xcdatamodeld in Sources */,
+				3F40BF372BB8EBDA00056415 /* SongStructure.swift in Sources */,
+				3F40BF352BB8B03200056415 /* SelectedSongViewController.swift in Sources */,
+				3FE6D5B52BA64C4400B8AC76 /* DrawerSlideAnimation.swift in Sources */,
+				3FA84DA92BA63A5500BF9DD5 /* FavoritesViewController.swift in Sources */,
 				3FA84D722BA60F3500BF9DD5 /* SceneDelegate.swift in Sources */,
+				3F26471A2BE6E2A0005D4817 /* CustomRecordingCell.swift in Sources */,
+				3FA84DAC2BA63AD300BF9DD5 /* RecordingsViewController.swift in Sources */,
+				3FA84DAF2BA63B1800BF9DD5 /* SettingsViewController.swift in Sources */,
+				3FE6D5B92BA64C5A00B8AC76 /* DrawerMenuViewController.swift in Sources */,
+				3FABCC292BB861C900248CB1 /* CustomCell.swift in Sources */,
+				3FE6D5B72BA64C4C00B8AC76 /* DrawerTransitionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
